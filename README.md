@@ -28,3 +28,7 @@ For complex (ligand-bound) systems, the scripts assume the LIG.gro and LIG.itp f
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example for complex system: ```./SETUP.sh complex input.pdb lig.gro lig.itp 5000000 prod RNA_LIG```  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example for apo system: ```./SETUP.sh apo input.pdb . . 5000000 prod RNA```  
 
+## Caveats
+***Error handling:*** In its current form, the whole script goes through agnostic to where the first error occurred. User need to trace the errors and address it. Future versions may address this with better error handling.
+
+## Thanks
