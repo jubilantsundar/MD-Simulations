@@ -7,7 +7,9 @@ For complex (ligand-bound) systems, the scripts assume the LIG.gro and LIG.itp f
 
 ## Step 1. System preparation
   1. Preparing protein or DNA or RNA as a pdb file (without ligand). We will assemble them later.
-  2. Prepare the extracted ligand as LIG.sdf or LIG.mol2
+     Every system is different which needs some tweaking in the mdp files provided. Understand your system first.
+  3. Prepare the extracted ligand as LIG.sdf or LIG.mol2  
+     This also may require some additional options to match your ligand. Eg. charged ligands need some special care.
 
 ## Step 2. Obtain ligand parameters
 ### Install acpype (python wrapper of antechamber) using conda
