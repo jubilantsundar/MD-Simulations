@@ -16,7 +16,7 @@ For complex (ligand-bound) systems, the scripts assume the LIG.gro and LIG.itp f
   ```conda install -c conda-forge acpype```  
 
 ### Obtain ligand parameters using acpype
-  ```acpype -i lig.sdf (lig.mol2)```  ## Make sure your ligand file is named LIG.sdf or LIG.mol2 and the name inside the file is LIG as well
+  ```acpype -i LIG.sdf (LIG.mol2)```  ## Make sure your ligand file is named LIG.sdf or LIG.mol2 and the name inside the file is LIG as well
 
 ## Step 3. Run MD simulation
   Install Gromacs if not installed already following instructions here https://manual.gromacs.org/current/install-guide/index.html
